@@ -6,7 +6,7 @@ let myVideoStream;
 const peer = new Peer(undefined, {
     path: '/peerjs',
     host: '/',
-    port: '443git'
+    port: '443'
 });
 
 navigator.mediaDevices.getUserMedia({
